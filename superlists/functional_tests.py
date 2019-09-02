@@ -21,7 +21,7 @@ class NewVisitorTest(unittest.TestCase):
 
         inputbox = self.browser.find_element_by_id('id_new_item')
         self.assertEqual(
-            inputbox.get.attribute('placeholder'),
+            inputbox.get_attribute('placeholder'),
             '작업 아이템 입력'
         )
 
